@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --highlight-pink: #ED4D77;
+    --backgroud-white: #F4F4F4;
+}
+
+html {
+    background: #F4F4F4;
+    @media (max-width: 600px) {
+        font-size: 93.75%;
+    }
+
+    @media (max-width: 414px) {
+        font-size: 87.5%;
+    }
+}

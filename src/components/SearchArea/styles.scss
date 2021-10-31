@@ -1,0 +1,52 @@
+.search_area_content {
+    display: flex;
+    justify-content: center;
+    padding: 0 16px;
+    
+    position: absolute;
+    bottom: 16px;
+
+    width: 100%;
+    .search_area {
+        
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        width: 100%;
+        max-width: 500px;
+        padding: 16px;
+        border-radius: 8px;
+        background: #FFFFFF;
+    
+        input {
+            border: 0;
+            background: transparent;
+            width: 100%;
+            line-height: 40px;
+            outline: none;
+    
+            font-style: italic;
+            font-weight: 400;
+            font-size: 14px;
+            font-family: 'Exo 2', sans-serif;
+        }
+    
+        button {
+            border: 0;
+            background: transparent;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            cursor: pointer;
+    
+            img {
+                filter: invert(60%) sepia(3%) saturate(22%) hue-rotate(314deg) brightness(92%) contrast(86%);
+            }
+        }
+    
+    }
+}

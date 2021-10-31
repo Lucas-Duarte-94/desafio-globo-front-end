@@ -1,0 +1,48 @@
+.header_insight_content {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+
+    padding: 16px;
+
+    background-image: url('../../assets/background.svg');
+    background-color: #B757C2;
+    background-position: left bottom;
+    background-size: cover;
+
+    button {
+        background: transparent;
+        border: 0;
+    }
+
+    img {
+        position: absolute;
+        left: 16px;
+        bottom: 29px;
+
+        filter: invert(47%) sepia(25%) saturate(2207%) hue-rotate(304deg) brightness(92%) contrast(102%);
+    }
+
+    div {
+        width: 75px;
+
+        display: flex;
+        
+        justify-content: center;
+
+        h2 {
+            margin: 8px 0;
+
+            text-align: center;
+            line-height: 18px;
+    
+            font-style: italic;
+            font-weight: 500;
+            font-size: 20px;
+            font-family: 'Exo 2', sans-serif;
+            color: var(--highlight-pink);
+        }
+    }
+
+}

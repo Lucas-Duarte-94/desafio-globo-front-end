@@ -1,0 +1,88 @@
+.header_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 0 auto;
+    padding: 0 16px;
+    height: 314px;
+
+    background-image: url('../../assets/background.svg');
+    background-color: #B757C2;
+    background-position: left bottom;
+    background-size: cover;
+
+    .inline_header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+        margin-top: 48px;
+
+        .avatar_image_place {
+            
+            width: 62px;
+            height: 62px;
+            border-radius: 50%;
+            border: 2px solid var(--highlight-pink);
+
+            img {
+                margin: 2px;
+
+                width: 54px;
+                height: 54px;
+
+                object-fit: cover;
+
+                border-radius: 50%;
+            }
+        }
+    
+        .insights_logo {
+            width: 50px;
+            height: 50px;
+        }
+
+        .add_button_area {
+            background: transparent;
+            border: 0;
+
+            width: 50px;
+            height: 50px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .add_button {
+    
+                filter: invert(47%) sepia(25%) saturate(2207%) hue-rotate(304deg) brightness(92%) contrast(102%);
+            }
+        }
+
+    }
+
+}
+
+.user_info {
+    margin-top: 16px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        font-style: italic;
+        font-weight: 500;
+        font-size: 20px;
+        font-family: 'Exo 2', sans-serif;
+        color: #FFFFFF;
+    }
+    span {
+        font-size: 12px;
+        font-family: 'Exo 2', sans-serif;
+        color: #FFFFFF;
+    }
+}
