@@ -1,4 +1,4 @@
-#Front-end do desafio:
+# Front-end do desafio:
 
 Além de receber todos os cards e tags do back-end e exibi-los em tela de forma organizada e estilizada, a aplicação é responsiva a diversos tamanhos de tela alterando tamanho de fonte(depende da largura) ou a quantidade de cards exibidos(depende da altura).
 
